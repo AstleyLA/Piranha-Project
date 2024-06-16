@@ -110,6 +110,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px; 
 }
 
+.rounded:hover {
+    color: darkgray;
+}
+
+.section-padding {
+    padding: 40px 0;
+}
+
 @media (max-width: 1200px) {
     .image-text {
         font-size: 3.5vw;
