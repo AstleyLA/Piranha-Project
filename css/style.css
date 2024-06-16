@@ -1,38 +1,141 @@
 
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Abril Fatface', serif; 
+    font-family: 'Abril Fatface', serif;
+    font-weight: bold; 
   }
   
 
   p {
     font-family: 'Museo Sans Rounded', sans-serif; 
+    font-size: 12px;
   }
 
   .made-for-living {
     border-bottom: 1px solid #ccc; 
     padding-bottom: 10px;
+    padding-top: 10px;
   }
 
 .navbar-nav .nav-link {
-    color: black !important;
+    color: black;
     font-family: 'Museo Sans Rounded', sans-serif; 
     font-weight: bold;
   }
   
 
   .navbar-nav .nav-link:hover {
-    color: darkgray !important;
+    color: darkgray;
   }
 
   .image-text {
     position: absolute;
-    top: 60px;
-    left:100px;
+    top: 10%; 
+    left: 5%; 
     color: white;
-    font-size: 80px;
+    font-size: 4vw; 
     font-family: 'Abril Fatface', serif;
     font-weight: bold;
-    line-height:1.2;
+    line-height: 1.2;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+  .image-text-two {
+    position: absolute;
+    bottom: 15px;
+    left:30px;
+    color: white;
+    font-size: 80px;
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-weight: bold;
+    line-height:0.8;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
   }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.container-fluid {
+    position: relative;
+    padding: 0;
+}
+
+  .link {
+    color: rgb(238, 101, 188);
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+  .break {
+    border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      margin-top: 20px;
+      margin-bottom: 20px
+  }
+
+  .section-a {
+    background-color: #f1efef;
+  }
+
+  .item {
+    border-right: 1px solid lightgrey; 
+    border-top: 1px solid lightgrey; 
+    border-bottom: 1px solid lightgrey; 
+    padding: 20px;
+}
+
+.item:last-child {
+    border-right: none; 
+}
+
+.item p {
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.item-code {
+    color: lightgrey;
+    font-size: 14px;
+}
+
+.bottom-image {
+    width: 100%;
+    height: auto;
+    max-width: 300px; 
+    margin-bottom: 20px; 
+}
+
+@media (max-width: 1200px) {
+    .image-text {
+        font-size: 3.5vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .image-text {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-text {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .image-text {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .image-text {
+        font-size: 1.5vw;
+    }
+}
